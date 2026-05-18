@@ -1,0 +1,61 @@
+<!DOCTYPE lang="ar">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alsarmini Translate</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Standard favicon -->
+    <link rel="icon" type="image/jpg" href="AlsarminiTranslate.jpg">
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="AlsarminiTranslate.jpg">
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="language-picker">
+        <button id="langBtn" class="lang-circle-btn">🌐</button>
+        <div id="langDropdown" class="lang-dropdown">
+            <button data-lang="en">English</button>
+            <button data-lang="es">Español</button>
+            <button data-lang="fr">Français</button>
+            <button data-lang="de">Deutsch</button>
+            <button data-lang="it">Italiano</button>
+            <button data-lang="pt">Português</button>
+            <button data-lang="ar">العربية</button>
+            <button data-lang="ru">Русский</button>
+            <button data-lang="zh">中文</button>
+            <button data-lang="ja">日本語</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Alsarmini Translate</h1>
+        <div class="input-section">
+            <textarea id="inputText" placeholder=""></textarea>
+        </div>
+        <div class="controls">
+            <select id="targetLang">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português</option>
+                <option value="ar">العربية</option>
+                <option value="ru">Русский</option>
+                <option value="zh">中文</option>
+                <option value="ja">日本語</option>
+            </select>
+            <button id="translateBtn"></button>
+        </div>
+        <div class="output-section">
+            <textarea id="outputText" placeholder="" readonly></textarea>
+        </div>
+    </div>
+    <div class="footer">
+        Abdullah Alsarmini مطور الموقع 
+    </div>
+    <script src="language.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

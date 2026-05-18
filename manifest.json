@@ -1,0 +1,20 @@
+{
+  "name": "Alsarmini Translate",
+  "short_name": "Alsarmini",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "AlsarminiTranslate.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "AlsarminiTranslate.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}
